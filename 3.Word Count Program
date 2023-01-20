@@ -1,0 +1,23 @@
+# Create a function that any string as input and returns the number of words for that string
+
+## Code starts here ##
+
+def Count_Words(strng):
+    strng_list=strng.split()
+    return len(strng_list)
+
+print(Count_Words("Hey there it's me"))  Ans: 4
+
+# Part 2 of the question, Find total number of letters in the string
+def count_words(strng):
+    strng_list=strng.split()
+    count=0
+    for i in strng_list:
+        count=count+len(i)
+    return count
+
+print(count_words("Hey there it's me"))  Ans :14
+
+
+
+     
