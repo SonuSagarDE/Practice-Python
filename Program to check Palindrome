@@ -1,0 +1,7 @@
+def Palindrome(s):
+    temp=s[::-1]
+    if temp==s:
+        print("It is Palindrome")
+    else:
+        print("It is not Palindrome")
+        
