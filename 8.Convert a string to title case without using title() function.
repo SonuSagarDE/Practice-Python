@@ -1,0 +1,8 @@
+
+Input_String=input("Enter a string : ")
+Splitted_String=Input_String.split()
+Final_String=''
+for i in Splitted_String:
+    Final_String=Final_String+i[0].upper()+i[1:].lower()+''
+    
+print(Final_String)  
