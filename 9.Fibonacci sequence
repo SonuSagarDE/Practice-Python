@@ -38,3 +38,13 @@ Fibonacci sequence:
 3
 5
 8
+
+## Approach 2
+def fibonacci(n):
+    a,b=0,1
+    print(a)
+    while (b<n):
+        print(b)
+        c=a+b
+        a=b
+        b=c
