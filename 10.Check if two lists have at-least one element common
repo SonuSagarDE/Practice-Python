@@ -4,7 +4,7 @@ Output : True
 
 Input : a=[1, 2, 3, 4, 5]
         b=[6, 7, 8, 9]
-Output : False  %
+Output : False
 
 # Python program to check
 # if two lists have at-least
