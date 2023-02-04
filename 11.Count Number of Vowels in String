@@ -1,0 +1,11 @@
+def numberofVowels(string):
+    v=["a","i","e","o","u","A","I","E","O","U"]
+    count=0
+    for i in string:
+        if i in v:
+            count=count+1
+    return count
+   
+   Input: numberofVowels("I am in love with YoU")
+   Output:8
+            
