@@ -12,3 +12,10 @@ for c in str1:
 print("Input string is: ", str1)
 print("Total number of uppercase letters: ", no_of_ucase)
 print("Total number of lowercase letters: ", no_of_lcase)
+
+Example:
+Input a string: 
+StriNG
+Input string is:  StriNG
+Total number of uppercase letters:  3
+Total number of lowercase letters:  3
